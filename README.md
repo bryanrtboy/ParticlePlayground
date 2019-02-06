@@ -1,1 +1,2 @@
 # ParticlePlayground
+This is a stub project to get started playing around with Particle Systems and some input. The project us Keijiro's [Midi Jack]('https://github.com/keijiro/MidiJack') package for getting raw input from a midi controller. His git contains more complete examples than what I've included here. I'd recommend his [MidiKlak]('https://github.com/keijiro/MidiKlak') project for an easy to use, graph based controller for Midi.
