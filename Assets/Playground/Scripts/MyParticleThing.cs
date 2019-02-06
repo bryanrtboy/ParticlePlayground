@@ -7,6 +7,7 @@ public class MyParticleThing : MonoBehaviour
 {
     public int m_knobNumber = 9;
     public ParticleSystem m_particleSystem;
+    public ParticleSystem m_otherParticleSystem;
 
     void Awake()
     {
@@ -25,5 +26,16 @@ public class MyParticleThing : MonoBehaviour
             main.startSize = s * 10f;
 
         }
+
+
+        if (m_otherParticleSystem != null && s > 0f)
+        {
+            var main = m_otherParticleSystem.main;
+
+            main.startSize = Mathf.Abs(Input.GetAxis("Horizontal")) * 10f;
+
+        }
+
+
     }
 }
