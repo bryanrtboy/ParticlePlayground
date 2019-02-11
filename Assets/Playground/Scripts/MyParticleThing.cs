@@ -28,7 +28,7 @@ public class MyParticleThing : MonoBehaviour
         }
 
 
-        if (m_otherParticleSystem != null && s > 0f)
+        if (m_otherParticleSystem != null)
         {
             var main = m_otherParticleSystem.main;
 

@@ -224,7 +224,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 44a14a6a72a80483a96ac82d393a37e1, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_knobNumber: 9
+  m_knobNumber: 5
   m_particleSystem: {fileID: 545728975}
   m_otherParticleSystem: {fileID: 436129190}
 --- !u!1 &436129188
@@ -5713,8 +5713,8 @@ ParticleSystem:
         m_RotationOrder: 4
   ShapeModule:
     serializedVersion: 6
-    enabled: 0
-    type: 4
+    enabled: 1
+    type: 13
     angle: 25
     length: 5
     boxThickness: {x: 0, y: 0, z: 0}
